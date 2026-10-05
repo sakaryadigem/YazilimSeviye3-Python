@@ -1,0 +1,12 @@
+{
+    "gorevler": [
+        {
+            "baslik": "\u00d6devi yap",
+            "tamamlandi": true
+        },
+        {
+            "baslik": "Python \u00f6devlerini yap",
+            "tamamlandi": false
+        }
+    ]
+}
