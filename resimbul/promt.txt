@@ -1,0 +1,43 @@
+Belirli bir kaynak klasör içerisindeki karışık 
+resim dosyalarını program aracılığıyla analiz edecek,
+belirli kriterlere (boyut, en-boy oranı, renk modu vb.)
+göre sınıflandıracak ve hedef alt klasörlere otomatik 
+olarak taşıyacak bir konsol uygulaması geliştirecektir.
+ 
+Temel Gereksinimler ve Özellikler
+Uygulamanın eksiksiz çalışabilmesi için 
+aşağıdaki modülleri ve özellikleri barındırması 
+gerekmektedir:
+
+Kaynak ve Hedef Klasör Yönetimi:
+* Program çalıştırıldığında kullanıcıdan taranacak 
+kaynak klasörün yolu (path) ve gerekirse 
+kurallar istenir.
+
+Belirtilen hedef dizin altında otomatik olarak 
+kategori klasörleri (Örn: Dikey, Yatay, Kare, Gri_Ton, Renkli) 
+oluşturulmalıdır.
+
+Görsel Analiz Motoru (Pillow Kütüphanesi):
+* Klasördeki her bir görsel (.jpg, .png, .jpeg vb.) 
+taranmalıdır.
+* Görselin genişlik (width) ve yükseklik (height) 
+değerleri okunmalıdır.
+* En-boy oranına (aspect ratio) bakılarak görselin 
+yatay mı, dikey mi yoksa kare mi olduğu tespit 
+edilmelidir.
+* Renk modu (RGB, L vb.) kontrol edilerek siyah-beyaz 
+(gri tonlamalı) ve renkli görseller birbirinden 
+ayrılmalıdır.
+
+Akıllı Taşıma ve Dosya Yönetimi (shutil Kütüphanesi):
+* Analiz edilen görseller, ilgili kategori klasörüne 
+taşınmalıdır (shutil.move).
+* Aynı isimde dosya olması durumunda çakışmayı önlemek 
+için hata yönetimi (try-except) veya dosya adını 
+yeniden adlandırma mantığı kurulmalıdır.
+
+Loglama ve Raporlama:
+* İşlem bittiğinde konsola toplam kaç görselin 
+taranarak hangi klasörlere kaçar adet dağıtıldığını 
+gösteren özet bir rapor yazdırılmalıdır.

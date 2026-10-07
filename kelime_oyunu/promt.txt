@@ -1,0 +1,35 @@
+Python Ödevi 5:
+Kelime Kartı (Flashcard) ve Dil Öğrenme Uygulaması, 
+hem orta seviye Python konularını  İçerir.
+
+Uygulamanın adım adım detaylı mimarisi, özellikleri ve modülleri şu şekildedir:
+
+1. Veri Yönetimi ve Dosya İşlemleri (words.json) Kelimelerin kalıcı olarak saklanması 
+ve program kapatılıp açıldığında kaybolmaması gerekir.
+
+JSON Yapısı: Kelimeler JSON formatında bir dosyada saklanır. Her kelime için 
+İngilizce karşılığı, Türkçe anlamı, zorluk derecesi (örneğin 1-5 arası) 
+ve kaç kez doğru bilinip bilinmediği tutulur.
+
+Örnek Veri Modeli:
+JSON
+[
+  {"id": 1, "en": "Achieve", "tr": "Başarmak", "level": 3, "correct_count": 2, "wrong_count": 1},
+  {"id": 2, "en": "Curious", "tr": "Meraklı", "level": 1, "correct_count": 5, "wrong_count": 0}
+]
+Kazanım: json modülünü içe aktarma (import json), dosyayı okuma (json.load) ve 
+dosyaya yazma (json.dump) fonksiyonları.
+
+2. Başlangıç ve Karşılama Menüsü (Main Menu)
+Kullanıcının uygulamaya girdiğinde yapabileceği işlemleri seçmesini sağlayan döngüsel 
+bir konsol arayüzü.
+
+Menü Seçenekleri:
+-Kelime Çalışması Başlat (Flashcard Modu)
+-Yeni Kelime Ekle
+-Kelimeleri Listele / Düzenle
+-İstatistikleri Gör
+-Çıkış
+
+Kazanım: While döngüleri, input() yönlendirmeleri ve hatalı tuşlamalara karşı 
+try-except ile girdi doğrulama.

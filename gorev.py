@@ -42,39 +42,41 @@ def gorev_sil(index):
     else:
         print("Geçersiz görev numarası.")
 
-print("**"*32)
-print("**"*32)
-print("***        Görev Listesi Uygulaması     ***")
-print("**"*32)
-print("**"*32)
 
+def main():
+    print("**"*32)
+    print("***        Görev Listesi Uygulaması     ***")
+    print("**"*32)
+    print("1. Görev Ekle")
+    print("2. Görevleri Listele")   
+    print("3. Görev Tamamla")
+    print("4. Görev Sil")
+    print("5. Çıkış")
 
-print("1. Görev Ekle")
-print("2. Görevleri Listele")   
-print("3. Görev Tamamla")
-print("4. Görev Sil")
-print("5. Çıkış")
+    while True:
+        secim = input("Seçiminizi yapınız (1-5): ")
 
-while True:
-    secim = input("Seçiminizi yapınız (1-5): ")
+        if secim == "1":
+            gorev = input("Görev başlığını giriniz: ")
+            gorev_ekle(gorev)
+            print("Görev eklendi.")
+        elif secim == "2":
+            print("Görevler:")
+            gorevleri_listele()
+        elif secim == "3":
+            index = int(input("Tamamlanacak görev numarasını giriniz: "))
+            gorev_tamamla(index)
+            print("Görev tamamlandı.")
+        elif secim == "4":
+            index = int(input("Silinecek görev numarasını giriniz: "))
+            gorev_sil(index)
+            print("Görev silindi.")
+        elif secim == "5":
+            print("Çıkış yapılıyor...")
+            break
+        else:
+            print("Geçersiz seçim. Lütfen tekrar deneyin.")
+            
+if __name__ == "__main__":            
+    main()
 
-    if secim == "1":
-        gorev = input("Görev başlığını giriniz: ")
-        gorev_ekle(gorev)
-        print("Görev eklendi.")
-    elif secim == "2":
-        print("Görevler:")
-        gorevleri_listele()
-    elif secim == "3":
-        index = int(input("Tamamlanacak görev numarasını giriniz: "))
-        gorev_tamamla(index)
-        print("Görev tamamlandı.")
-    elif secim == "4":
-        index = int(input("Silinecek görev numarasını giriniz: "))
-        gorev_sil(index)
-        print("Görev silindi.")
-    elif secim == "5":
-        print("Çıkış yapılıyor...")
-        break
-    else:
-        print("Geçersiz seçim. Lütfen tekrar deneyin.")

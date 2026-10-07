@@ -1,0 +1,24 @@
+2026-10-07 16:42:33 | INFO    | Kaynak klasör : C:\Users\User\Documents\Soner\Yazılım Seviye 2 - 3\PythonProjeleri\Ders1\resimbul
+2026-10-07 16:42:33 | INFO    | Hedef klasör  : C:\Users\User\Documents\Soner\Yazılım Seviye 2 - 3\PythonProjeleri\Ders1\resimbul\Siniflandirilmis
+2026-10-07 16:42:33 | INFO    | 5 kategori klasörü hazır.
+2026-10-07 16:42:33 | INFO    | 4 görsel dosyası bulundu.
+2026-10-07 16:42:33 | INFO    | TAŞINDI | 0edc2983-a186-4636-87d5-0c46d9d32a41.png -> Dikey (1024x1536, mod=RGB)
+2026-10-07 16:42:33 | INFO    | TAŞINDI | Adsız.png -> Yatay (682x529, mod=RGBA)
+2026-10-07 16:42:33 | INFO    | TAŞINDI | Digital Sticker_Unleashing the Power of AI Agents.png -> Kare (2000x2000, mod=RGBA)
+2026-10-07 16:42:33 | INFO    | TAŞINDI | Ekran görüntüsü 2026-01-12 104030.png -> Dikey (448x481, mod=RGBA)
+2026-10-07 16:42:33 | INFO    | ---- ÖZET RAPOR ----
+2026-10-07 16:42:33 | INFO    | Toplam: 4 | Başarılı: 4 | Hatalı: 0
+2026-10-07 16:42:33 | INFO    |   Dikey: 2
+2026-10-07 16:42:33 | INFO    |   Yatay: 1
+2026-10-07 16:42:33 | INFO    |   Kare: 1
+2026-10-07 16:48:59 | INFO    | Kaynak klasör : C:\Users\User\Documents\Soner\Yazılım Seviye 2 - 3\PythonProjeleri\Ders1\resimbul
+2026-10-07 16:48:59 | INFO    | Hedef klasör  : C:\Users\User\Documents\Soner\Yazılım Seviye 2 - 3\PythonProjeleri\Ders1\resimbul\Siniflandirilmis
+2026-10-07 16:48:59 | INFO    | 5 kategori klasörü hazır.
+2026-10-07 16:48:59 | INFO    | 3 görsel dosyası bulundu.
+2026-10-07 16:48:59 | INFO    | TAŞINDI | Citroen-Ami-3.webp -> Yatay (1024x768, mod=RGB)
+2026-10-07 16:48:59 | INFO    | TAŞINDI | images.png -> Kare (447x447, mod=P)
+2026-10-07 16:48:59 | INFO    | TAŞINDI | istockphoto-520700958-612x612.jpg -> Yatay (612x408, mod=RGB)
+2026-10-07 16:48:59 | INFO    | ---- ÖZET RAPOR ----
+2026-10-07 16:48:59 | INFO    | Toplam: 3 | Başarılı: 3 | Hatalı: 0
+2026-10-07 16:48:59 | INFO    |   Yatay: 2
+2026-10-07 16:48:59 | INFO    |   Kare: 1
