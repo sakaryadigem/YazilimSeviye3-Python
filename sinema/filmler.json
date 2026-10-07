@@ -1,0 +1,16 @@
+[
+  {
+    "id": "film_001",
+    "ad": "Yıldızlararası",
+    "tur": "Bilim Kurgu",
+    "sure": 169,
+    "vizyon_tarihi": "2014-11-07"
+  },
+  {
+    "id": "film_002",
+    "ad": "Geleceğe Dönüş",
+    "tur": "Macera / Komedi",
+    "sure": 116,
+    "vizyon_tarihi": "1985-07-03"
+  }
+]

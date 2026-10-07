@@ -1,0 +1,45 @@
+1. Sinema salonlarındaki koltuk düzenini yöneten, 
+farklı film/seans tanımlayan, bilet satışı 
+gerçekleştiren ve gelir takibi yapan tkinter 
+kütüphanesini kullanan görsel bir python 
+uygulaması geliştirecektir.
+
+2. Temel Gereksinimler ve Özellikler
+Uygulamanın eksiksiz çalışabilmesi için aşağıdaki 
+bileşenleri içermesi gerekmektedir:
+Nesne Yönelimli Tasarım (OOP):
+* Film: Filmin adı, türü, süresi ve vizyon tarihi 
+gibi özellikleri tutmalıdır.
+* Salon: Salon numarası, toplam koltuk kapasitesi 
+ve koltuk matrisini (örn. 5x5 grid) barındırmalıdır.
+* Bilet: Film, seans, koltuk numarası ve 
+müşteri adını ilişkilendiren bir yapı olmalıdır.
+
+Koltuk Matrisi ve Rezervasyon Mantığı:
+* Her salon için 2 boyutlu liste (list of lists) 
+veya matris mantığıyla koltuk durumu tutulmalıdır 
+([ ] boş koltuk, [X] dolu koltuk).
+* Kullanıcı seans seçtiğinde salonun güncel koltuk 
+yerleşimi görsel olarak çizdirilmeli 
+ve kullanıcıdan koltuk seçmesi istenmelidir 
+(Örn: A3, B2 gibi).
+
+Film ve Seans Yönetimi:
+* Yönetici paneli veya ana menü üzerinden 
+yeni film eklenebilmeli, mevcut filmlere seans 
+saatleri tanımlanabilmelidir.
+
+Bilet Satış ve İptal Mekanizması:
+* Seçilen koltuğun doluluk kontrolü yapılmalı, 
+doluysa uyarı verilmeli; boşsa satış gerçekleştirilip 
+koltuk X olarak güncellenmelidir.
+* İstenirse bilet iptal edilerek koltuk tekrar 
+boşa çıkarılabilmelidir.
+
+Kasa ve Raporlama:
+* Toplam kesilen bilet sayısı ve elde edilen toplam 
+hasılat bir arayüzde raporlanmalıdır.
+
+Verinin tutulması:
+* Tüm veriler farklı json uzantılı dosyalarda tutulacaktır.
+* Başlangıçta her biri için örnek veri oluştur

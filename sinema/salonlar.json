@@ -1,0 +1,14 @@
+[
+  {
+    "id": "salon_001",
+    "numara": 1,
+    "satir": 5,
+    "sutun": 6
+  },
+  {
+    "id": "salon_002",
+    "numara": 2,
+    "satir": 4,
+    "sutun": 5
+  }
+]

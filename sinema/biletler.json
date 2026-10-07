@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bilet_001",
+    "seans_id": "seans_001",
+    "film_id": "film_001",
+    "salon_id": "salon_001",
+    "koltuk": "B3",
+    "musteri": "Örnek Müşteri",
+    "fiyat": 180.0,
+    "satis_zamani": "2026-10-07 12:00"
+  },
+  {
+    "id": "bilet_002",
+    "seans_id": "seans_002",
+    "film_id": "film_002",
+    "salon_id": "salon_002",
+    "koltuk": "A2",
+    "musteri": "Ayşe Kaya",
+    "fiyat": 140.0,
+    "satis_zamani": "2026-10-07 12:05"
+  },
+  {
+    "id": "bae20785",
+    "seans_id": "seans_001",
+    "film_id": "film_001",
+    "salon_id": "salon_001",
+    "koltuk": "B2",
+    "musteri": "Ali Veli",
+    "fiyat": 180.0,
+    "satis_zamani": "2026-10-07 17:12"
+  }
+]

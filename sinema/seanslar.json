@@ -1,0 +1,18 @@
+[
+  {
+    "id": "seans_001",
+    "film_id": "film_001",
+    "salon_id": "salon_001",
+    "tarih": "2026-10-08",
+    "saat": "19:30",
+    "fiyat": 180.0
+  },
+  {
+    "id": "seans_002",
+    "film_id": "film_002",
+    "salon_id": "salon_002",
+    "tarih": "2026-10-09",
+    "saat": "15:00",
+    "fiyat": 140.0
+  }
+]
